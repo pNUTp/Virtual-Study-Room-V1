@@ -3,7 +3,7 @@ import { getFirestore, doc, setDoc, serverTimestamp } from "firebase/firestore";
 import { getAuth, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD3oo71fzeyufaawevyRFTYw7FYz83TCzU",
+  apiKey: "", //Replace With Your Firebase API Key.
   authDomain: "v2-study-room.firebaseapp.com",
   projectId: "v2-study-room",
   storageBucket: "v2-study-room.firebasestorage.app",

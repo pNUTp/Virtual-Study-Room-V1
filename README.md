@@ -19,6 +19,9 @@ This project is a **Analysis App** that helps users track their study sessions, 
 - **`src/components`** - Reusable UI components (e.g., `button`, `chart`)
 - **`src/config`** - Firebase configuration
 
+## FireBase Console
+- **`src/app/config/firebase.js`**  - Create a Google Authentication and a real time Database that stores data info about users currently logged in your Firebase Console.
+
 ## Setup Instructions
 1. Clone the repository:
    ```sh
